@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikas-kumar-actyv/nodejs-authentication.git"
+  },
+  "author": "Vikas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikas-kumar-actyv/nodejs-authentication/issues"
+  },
+  "homepage": "https://github.com/vikas-kumar-actyv/nodejs-authentication#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.1"
+  }
+}
